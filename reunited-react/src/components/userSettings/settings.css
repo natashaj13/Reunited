@@ -1,0 +1,20 @@
+#delete {
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#delete :hover {
+    background-color: black;
+}
+
+#deleteLabel {
+    margin-top: 6rem;
+}
+
+.deleteConfirm button {
+    width: 15%;
+    margin-right: 1rem;
+}

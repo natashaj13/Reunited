@@ -1,0 +1,10 @@
+.signButton {
+    width: 25%;
+}
+
+@media screen and (max-width: 500px) {
+    .signButton {
+        width: 90%;
+    }
+}
+

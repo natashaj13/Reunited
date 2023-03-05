@@ -1,0 +1,52 @@
+.create {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    font-size: 1.45rem;
+    text-align: center;
+}
+
+.desc {
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+}
+
+article {
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding-top: 2rem;
+}
+
+article h3 {
+    font-size: 1.5rem;
+    color: rgb(255, 230, 0);
+}
+
+article p {
+    font-size: 1.15rem;
+}
+
+.searchButton {
+    cursor: pointer;
+    width: 11rem;
+    height: 3rem;
+    padding: .8rem .6rem;
+    border-radius: 54px;
+    background-color: #008dc5;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+}
+  
+.searchButton:hover {
+    background-color: rgba(108, 65, 233, .7);
+}

@@ -1,0 +1,12 @@
+.body {
+  font-family: 'Titillium Web', sans-serif;
+  background-image: url('./bluetest.jpeg');
+  background-color: rgba(0, 48, 110, 0.521);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: 100% 100%;
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+  margin-bottom: 0;
+}

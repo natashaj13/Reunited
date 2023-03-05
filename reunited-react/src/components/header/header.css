@@ -1,0 +1,74 @@
+.header {
+    background-image: url('../../yellowbg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    min-height: 2rem;
+}
+
+.link {
+    color: blue;
+    padding-left: 1rem;
+    text-decoration: none;
+    font-size: 1.15rem;
+    float: left;
+    font-weight: bold;
+}
+
+.rightLinks {
+    float: right;
+    padding-right: 2rem;
+}
+
+.img {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-right: 1rem;
+}
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(165, 165, 165, 0.8);
+    padding: 0.5rem;
+    z-index: 1;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+  
+#element {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: rgba(165, 165, 165, 0.8);
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+#element:hover {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+/* this changes the whole dropdown color */
+.dropdown-content:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
